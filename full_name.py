@@ -17,5 +17,5 @@ language = language.strip()
 print(language)
 url_1 = "https://www.google.com"
 print(url_1)
-url_1 = url_1.removeprefix("https://")
-print(url_1)
+# url_1 = url_1.removeprefix("https://")
+# print(url_1)
