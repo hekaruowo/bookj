@@ -18,3 +18,4 @@ print(famous_person2)
 filename = "python_notes.txt"
 filename =  filename.removesuffix(".txt")
 print(filename)
+print(0.2+0.2)
