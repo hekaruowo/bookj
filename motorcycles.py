@@ -17,3 +17,11 @@ del motorcycles[0]
 print(motorcycles)
 motorcycles.insert(0,"bmw")
 print(motorcycles)
+popped_moto = motorcycles.pop()
+print(popped_moto)
+print(motorcycles)
+
+last_owned = popped_moto
+print(f'The last owned motorcycle is {last_owned.title().strip()}.')
+motorcycles.append("ducati")
+print(motorcycles)

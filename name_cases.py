@@ -2,7 +2,7 @@
 name = input("Введите ваше имя: ")
 name = name.strip()
 name = name.title()
-print("Здравствуйте,", name,",не хотите ли вы изучить Python сегодня?")
+print(f"Здравствуйте, {name}, не хотите ли вы изучить Python сегодня?")
 print(name.upper())
 print(name.lower())
 print(name.title())
